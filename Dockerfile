@@ -1,3 +1,3 @@
-FROM php:5.6-apache
+FROM php:7.1-apache
 COPY public/ /var/www/html/
 EXPOSE 80
